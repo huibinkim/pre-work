@@ -1,0 +1,56 @@
+#wrap{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height:36px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(248, 205, 247);
+}
+h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+/* 로그인 폼 css */
+
+section{
+    width: 100%;
+    height: calc(100% - 76px);
+}
+ #loginWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    width: 600px;
+    padding: 8% 3%;
+    margin: 5% auto 0;
+    background-color: rgb(162, 162, 248);
+    border-radius: 5px;
+ }
+ #loginWrap #loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+ }
+ #loginForm input#userId, input#userPassword{
+    width: 240px;
+    height: 30px;
+ }
+
+ #loginBtn{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+ }
